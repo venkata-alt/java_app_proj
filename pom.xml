@@ -89,6 +89,18 @@
                             <version>${junit.jupiter.version}</version>
                         </dependency>
                     </dependencies>
+                         <distributionmanagement>
+                                  <snapshotRepository>
+                                     <id>nexusRepo</id>
+                                     <url>http:http://3.231.3.233:8081/repository/sample-release/</url>
+                                  </snapshotRepository>
+                                  <repository>
+                                      <id>nexusRepo</id>
+                                      <url>http:http://3.231.3.233:8081/repository/sample-release/</url>
+                                  </repository>
+                          <distributionmanagement>
+
+                                           
                 </plugin>
             </plugins>
         </pluginManagement>
