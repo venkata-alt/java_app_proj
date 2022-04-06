@@ -10,6 +10,9 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>2.0.3.RELEASE</version>
+        <properties>
+           <docker.image.prefix>kammana</docker.image.prefix>
+           <sonar.host.url>http://44.203.233.93:9000/</sonar.host.url>
     </parent>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
